@@ -1,0 +1,17 @@
+{
+  "name": "dental-clinic-oss-api",
+  "version": "1.0.0",
+  "description": "backend for dental clinic online scheduling system",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "node server",
+    "start": "nodemon server"
+  },
+  "author": "Renz Luigie Bagsic",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.1",
+    "nodemon": "^3.1.10"
+  }
+}
